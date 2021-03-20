@@ -27,6 +27,8 @@ public class TicketsExample {
         Optional.ofNullable((String)null).map(String::length).orElse(0);
 
         service.doWork().printResult();
+
+        //тест гита
     }
 
 }
