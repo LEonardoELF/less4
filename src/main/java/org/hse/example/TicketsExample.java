@@ -21,7 +21,7 @@ public class TicketsExample {
         //NearestTicketsBuilder builder = () -> 6;
         //TicketCounterServiceImpl service = new TicketCounterServiceImpl(6, sum -> sum % 3 == 0);
 
-        NearestTickets service = new NearestTickets(6, sum -> sum % 41 == 0);
+        TicketService service = new NearestTickets(6, sum -> sum % 41 == 0);
         //NearestTickets service = new NearestTickets(6, null);
         Optional.of("Hello world!").map(String::length).orElse(0);
         Optional.ofNullable((String)null).map(String::length).orElse(0);
